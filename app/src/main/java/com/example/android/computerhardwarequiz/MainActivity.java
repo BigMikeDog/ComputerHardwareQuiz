@@ -11,10 +11,28 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    RadioButton q1a3;
+    RadioButton q2a3;
+    CheckBox q3a1;
+    CheckBox q3a2;
+    CheckBox q3a3;
+    CheckBox q3a4;
+    RadioButton q4a3;
+    EditText contestantNameField;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        q1a3 = findViewById(R.id.q1_r3);
+        q2a3 = findViewById(R.id.q2_r3);
+        q3a1 = findViewById(R.id.q3_c1);
+        q3a2 = findViewById(R.id.q3_c2);
+        q3a3 = findViewById(R.id.q3_c3);
+        q3a4 = findViewById(R.id.q3_c4);
+        q4a3 = findViewById(R.id.q4_r3);
+        contestantNameField = findViewById(R.id.contestant_name);
     }
 
     public void checkAnswers(View view){
@@ -23,15 +41,6 @@ public class MainActivity extends AppCompatActivity {
         String toastMessage = null;
         boolean wrong=false;
 
-        RadioButton q1a3 = findViewById(R.id.q1_r3);
-        RadioButton q2a3 = findViewById(R.id.q2_r3);
-        CheckBox q3a1 = findViewById(R.id.q3_c1);
-        CheckBox q3a2 = findViewById(R.id.q3_c2);
-        CheckBox q3a3 = findViewById(R.id.q3_c3);
-        CheckBox q3a4 = findViewById(R.id.q3_c4);
-        RadioButton q4a3 = findViewById(R.id.q4_r3);
-
-        EditText contestantNameField = findViewById(R.id.contestant_name);
         String contestantName = contestantNameField.getText().toString();
 
         if (q1a3.isChecked()){
