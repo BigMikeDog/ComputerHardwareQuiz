@@ -1,0 +1,50 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Computer Hardware Quiz</string>
+    <string name="app_description">
+        Welcome! This quiz will test your knowledge about basic computer hardware concepts!
+        Some questions will have multiple correct answers which will be indicated where answers
+        have check boxes instead of circular buttons next to them. Good luck and I hope you enjoy!
+    </string>
+
+    <string name="number_one">#1</string>
+    <string name="question_one">What Does \"CPU\" Stand For?</string>
+    <string name="q1_a1">Computational Processing Unit</string>
+    <string name="q1_a2">Computer Program Utility</string>
+    <string name="q1_a3">Central Processing Unit</string>
+    <string name="q1_a4">Calculated Process Usage</string>
+
+    <string name="number_two">#2</string>
+    <string name="question_two">How Many Bits Is A \"x86\" Instruction Set? </string>
+    <string name="q2_a1">64 Bits</string>
+    <string name="q2_a2">86 Bits</string>
+    <string name="q2_a3">32 Bits</string>
+    <string name="q2_a4">128 Bits</string>
+
+    <string name="number_three">#3</string>
+    <string name="question_three">Which Of These Are Required For A Computer To Work?</string>
+    <string name="q3_a1">CPU</string>
+    <string name="q3_a2">Disk Drive</string>
+    <string name="q3_a3">RAM</string>
+    <string name="q3_a4">Hard Drive</string>
+
+    <string name="number_four">#4</string>
+    <string name="question_four">What Does \"USB\" Stand For?</string>
+    <string name="q4_a1">Unpluggable Stick Barb</string>
+    <string name="q4_a2">Unilateral Screen Broadcast</string>
+    <string name="q4_a3">Universal Serial Buss</string>
+    <string name="q4_a4">Universal Studios Bus</string>
+
+    <string name="name_hint">Name:</string>
+    <string name="check_button">Check Answers</string>
+
+    <string name="q1FirstWrong">Sorry, you got question 1</string>
+    <string name="q2Wrong">and 2</string>
+    <string name="q2FirstWrong">Sorry, you got question 2</string>
+    <string name="q3Wrong">and 3</string>
+    <string name="q3FirstWrong">Sorry, you got question 3</string>
+    <string name="q4Wrong">and 4</string>
+    <string name="q4FirstWrong">Sorry, you got question 4</string>
+
+    <string name="allCorrect">Congrats <xliff:g id="name" example="Michael">%s</xliff:g>, you got 4/4 correct!</string>
+    <string name="wrongSuffex">wrong, try it again <xliff:g id="name" example="Michael">%s</xliff:g>!</string>
+</resources>
