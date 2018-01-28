@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="accent_view_rectangle_margin">8dp</dimen>
+    <dimen name="accent_view_rectangle_height">1dp</dimen>
+    <dimen name="large_numeral_text_size">48sp</dimen>
+    <dimen name="question_left_margin">8dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
+</resources>

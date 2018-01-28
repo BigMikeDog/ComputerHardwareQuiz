@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:padding="@dimen/screen_padding"
         android:orientation="vertical">
 
         <TextView
@@ -17,10 +17,10 @@
             android:textAlignment="center"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="@dimen/accent_view_rectangle_height"
             android:background="@color/colorAccent"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginTop="@dimen/accent_view_rectangle_margin"
+            android:layout_marginBottom="@dimen/accent_view_rectangle_margin"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,13 +30,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_one"
-                android:textSize="48sp" />
+                android:textSize="@dimen/large_numeral_text_size" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="@dimen/question_left_margin"
+                android:layout_marginStart="@dimen/question_left_margin"
                 android:layout_weight="1"
                 android:text="@string/question_one" />
 
@@ -75,10 +76,10 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="@dimen/accent_view_rectangle_height"
             android:background="@color/colorAccent"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginTop="@dimen/accent_view_rectangle_margin"
+            android:layout_marginBottom="@dimen/accent_view_rectangle_margin"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -88,13 +89,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_two"
-                android:textSize="48sp" />
+                android:textSize="@dimen/large_numeral_text_size" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="@dimen/question_left_margin"
+                android:layout_marginStart="@dimen/question_left_margin"
                 android:layout_weight="1"
                 android:text="@string/question_two" />
 
@@ -132,10 +134,10 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="@dimen/accent_view_rectangle_height"
             android:background="@color/colorAccent"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginTop="@dimen/accent_view_rectangle_margin"
+            android:layout_marginBottom="@dimen/accent_view_rectangle_margin"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -145,14 +147,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_three"
-                android:textSize="48sp"
+                android:textSize="@dimen/large_numeral_text_size"
                 android:layout_gravity="center_vertical"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="@dimen/question_left_margin"
+                android:layout_marginStart="@dimen/question_left_margin"
                 android:layout_weight="1"
                 android:text="@string/question_three" />
 
@@ -184,10 +187,10 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="@dimen/accent_view_rectangle_height"
             android:background="@color/colorAccent"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginTop="@dimen/accent_view_rectangle_margin"
+            android:layout_marginBottom="@dimen/accent_view_rectangle_margin"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -197,13 +200,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/number_four"
-                android:textSize="48sp" />
+                android:textSize="@dimen/large_numeral_text_size" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="@dimen/question_left_margin"
+                android:layout_marginStart="@dimen/question_left_margin"
                 android:layout_weight="1"
                 android:text="@string/question_four" />
 
@@ -241,10 +245,10 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="@dimen/accent_view_rectangle_height"
             android:background="@color/colorAccent"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="4dp"/>
+            android:layout_marginTop="@dimen/accent_view_rectangle_margin"
+            android:layout_marginBottom="@dimen/accent_view_rectangle_margin"/>
 
         <EditText
             android:id="@+id/contestant_name"
@@ -257,7 +261,7 @@
             android:layout_height="wrap_content"
             android:text="@string/check_button"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/button_margin"
             android:onClick="checkAnswers"/>
 
     </LinearLayout>
